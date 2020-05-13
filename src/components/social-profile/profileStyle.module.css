@@ -1,0 +1,62 @@
+.profile {
+    margin: 0 auto;
+    width: 400px;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.label {
+    font-size: 14px;
+    display: block;
+}
+
+.li {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 20px 30px;
+    width: 50%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.avatar {
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.name {
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+
+.tag {
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, .4);
+}
+
+.location {
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, .4);
+}
+
+.quantity {
+    font-weight: 700;
+}

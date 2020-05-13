@@ -1,0 +1,28 @@
+.statistics {
+    margin: 0 auto;
+    border: 2px solid rgba(0, 0, 0, .5);
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+}
+
+.statList {
+    list-style: none;
+    display:  flex;
+    padding-left: 0;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.item {
+    width: 20%;
+    padding: 15px 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+.label {
+    display: block;
+}
